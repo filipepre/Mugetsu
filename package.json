@@ -1,0 +1,32 @@
+{
+  "name": "mugetsu",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "heroku-postbuild": "ng build --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/filipepre/Mugetsu.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/filipepre/Mugetsu/issues"
+  },
+  "homepage": "https://github.com/filipepre/Mugetsu#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "typescript": "~2.3.3"
+  },
+  "engines": {
+    "node": "6.11.0",
+    "npm": "3.10.10"
+  },
+  "devDependencies": {
+    "enhanced-resolve": "^3.3.0"
+  }
+}
